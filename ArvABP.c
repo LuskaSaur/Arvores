@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "ArvABP.h"
-
 Arvore* criarArv(){
     return NULL;
 }
