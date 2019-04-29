@@ -8,7 +8,7 @@ typedef struct Arvore
     struct Arvore *sad
 }Arvore;
 
-
+Arvore* criarArv(); // cria arvore
 void criarArvAle(Arvore *arv,tam);// cria avore com valores aleatórios
 void inserir(Arvore *arv, int dado);// inserir na arvore
 int buscarnaArv(Arvore *arv, int chave);// busca em arvore
