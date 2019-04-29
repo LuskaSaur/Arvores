@@ -5,7 +5,19 @@
 Arvore* criarArv(){
     return NULL;
 }
-void inserir(Arvore *arv, int dado){
+
+void criarArvAle(Arvore *arv,tam){
+    if(arv == NULL){
+        criarArvAle(criarArv(),tam);
+    }else{
+        clock_t t;
+        srand((unsigned)time(t));
+        for(int i = 0;i<tam;i++)
+        dado = rand()%tam+1);
+        inserir(arv,dado);
+    }
+}
+void inserir(Arvore *arv, int dado){ 
     Arvore aux = arv;
     if(!aux){
         aux = (Arvore *)malloc(sizeof(Arvore));
