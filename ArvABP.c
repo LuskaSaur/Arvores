@@ -6,7 +6,7 @@ Arvore* criarArv(){
     return NULL;
 }
 
-void criarArvAle(Arvore *arv,tam){
+void criarArvAle(Arvore *arv,int tam){
     if(arv == NULL){
         criarArvAle(criarArv(),tam);
     }else{
