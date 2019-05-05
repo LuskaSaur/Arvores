@@ -5,8 +5,15 @@
 Arvore* criarArv(){
     return NULL;
 }
+void preencherarvoreRede(int vet[], int tam, Arvore *arv){
+	for(int i=0; i<tam; i++)
+		vet[i] = rand()%100000;
+        for(int i=0;i<tam;i++){
+                inserir(arv,vet[i])
+        }
+}
 
-void criarArvAle(Arvore *arv,int tam){
+void criarArvAle(Arvore *arv,tam){
     if(arv == NULL){
         criarArvAle(criarArv(),tam);
     }else{
