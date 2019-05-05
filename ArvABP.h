@@ -17,3 +17,4 @@ void mostrarArvemPre_Ordem(Arvore *arv);// Mostra Pré-Ordem
 void mostrarArvemPos_Ordem(Arvore *arv);// Mostra Pós-Ordem
 void mostrarArvemOrdem(Arvore *arv);// Mostra em-ordem
 int alturaArv(Arvore *arv); // Retorna a Altura da Arvore
+void preencherarvoreRede(int vet[],int tam, Arvore *arv); // preenche uma arvore com valores aleatórios e repetidos
